@@ -1,7 +1,7 @@
 PYTHON ASSIGNMENT:
 
 
-  1: Write a Python program to read a file line by line and store it into a list
+    1: Write a Python program to read a file line by line and store it into a list
 
 
 2. Write a Python program to calculate the number of days between two dates.        Sample dates : (20200702), (20200711) 
