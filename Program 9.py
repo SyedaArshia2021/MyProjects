@@ -1,5 +1,6 @@
 import subprocess
 import os
+import shutil
 with open(os.devnull, "wb") as limbo:
         for n in range(1, 10):
                 ip=f'192.168.0.{n}'
@@ -9,3 +10,7 @@ with open(os.devnull, "wb") as limbo:
                         print (ip, "inactive")
                 else:
                         print (ip, "active")
+
+def is_program_installed(program_name):    
+    """Check whether ProgramName is installed."""
+    return shutil.which(program_Name)
